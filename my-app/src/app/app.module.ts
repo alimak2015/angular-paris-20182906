@@ -11,10 +11,12 @@ import { PagenotfoundComponent } from './pagenotfound/containers/pagenotfound/pa
 import { PagenotfoundModule } from './pagenotfound/pagenotfound.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ItemsModule } from './items/items.module';
+import { StateDirective } from './shared/directives/state.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
+
 
   ],
   imports: [
@@ -25,6 +27,8 @@ import { ItemsModule } from './items/items.module';
     PagenotfoundModule,
     NgbModule.forRoot(),
     ItemsModule
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]
